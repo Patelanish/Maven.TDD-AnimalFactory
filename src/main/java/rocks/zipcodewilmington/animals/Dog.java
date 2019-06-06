@@ -10,6 +10,11 @@ public class Dog extends Mammal {
         super(name, birthDate, id);
     }
 
+    @Override
+    public String Speak() {
+        return "speak!";
+    }
+
     public String speak() {
         return "bark!";
     }
